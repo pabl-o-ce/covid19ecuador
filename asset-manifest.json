@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/covid19ecuador/static/css/main.d03def3b.chunk.css",
+    "main.js": "/covid19ecuador/static/js/main.07d00258.chunk.js",
+    "main.js.map": "/covid19ecuador/static/js/main.07d00258.chunk.js.map",
+    "runtime-main.js": "/covid19ecuador/static/js/runtime-main.41455037.js",
+    "runtime-main.js.map": "/covid19ecuador/static/js/runtime-main.41455037.js.map",
+    "static/js/2.4c8f84ac.chunk.js": "/covid19ecuador/static/js/2.4c8f84ac.chunk.js",
+    "static/js/2.4c8f84ac.chunk.js.map": "/covid19ecuador/static/js/2.4c8f84ac.chunk.js.map",
+    "index.html": "/covid19ecuador/index.html",
+    "precache-manifest.5e2e9c5f57f3536892b0a79205a9b5bc.js": "/covid19ecuador/precache-manifest.5e2e9c5f57f3536892b0a79205a9b5bc.js",
+    "service-worker.js": "/covid19ecuador/service-worker.js",
+    "static/css/main.d03def3b.chunk.css.map": "/covid19ecuador/static/css/main.d03def3b.chunk.css.map",
+    "static/js/2.4c8f84ac.chunk.js.LICENSE.txt": "/covid19ecuador/static/js/2.4c8f84ac.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/covid19ecuador/static/media/logo.df3a0094.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41455037.js",
+    "static/js/2.4c8f84ac.chunk.js",
+    "static/css/main.d03def3b.chunk.css",
+    "static/js/main.07d00258.chunk.js"
+  ]
+}
