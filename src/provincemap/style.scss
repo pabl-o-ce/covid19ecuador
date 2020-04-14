@@ -1,0 +1,80 @@
+.provincemap {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    #map-legend {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        div {
+            display: inline-block;
+        }
+        span.one {
+            color: #d2e3fc;
+        }
+        span.two {
+            color: #8ab4f8;
+        }
+        span.three {
+            color: #4285f4;
+        }
+        span.four {
+            color: #1967d2;
+        }
+    }
+    .svg-map {
+        background: #ffffff;
+        padding: 0 10px;
+    }
+}
+path:focus {
+    outline: none;
+}
+path.one {
+    fill: #d2e3fc !important;
+}
+path.two {
+    fill: #8ab4f8 !important;
+}
+path.three {
+    fill: #4285f4 !important;
+}
+path.four {
+    fill: #1967d2 !important;
+}
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+    fill: #f5f5f5;
+    cursor: pointer;
+}
+
+.cls-1:hover, .cls-2:hover, .cls-3:hover, .cls-4:hover, .cls-5:hover, .cls-6:hover, .cls-7:hover, .cls-8:hover, .cls-9:hover {
+    stroke: #174ea6;
+    stroke-width: 1.5px;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+    stroke: #fff;
+    stroke-width: 0.7px;
+}
+
+.cls-1 {
+    stroke-linejoin: round;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+    fill-rule: evenodd;
+}
+
+
+.cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+    stroke-miterlimit: 1.27915;
+}
+
+.cls-9 {
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 1.57544;
+}

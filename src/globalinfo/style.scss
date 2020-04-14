@@ -1,0 +1,58 @@
+$main: #111;
+$confirmed: #522d5b;
+$recovered: #1876d3;
+$deceased: #63686e;
+$active: #df0e1f;
+$critical: #801336;
+$suspect: #a4adc0;
+$tested: #8a92a3;
+
+.global {
+    padding-top: 20px;
+    padding-bottom: 0;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    div {
+        width: 100%;
+        margin-bottom: 20px;
+        .diff {
+            width: 100%;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .value {
+            width: 100%;
+            display: block;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 14px;
+        }
+        .label {
+            width: 100%;
+            display: block;
+            color: $main;
+            font-weight: 700;
+        }
+    }
+    &-active {
+        color: $active;
+    }
+    &-critical {
+        color: $critical;
+    }
+    &-deceased {
+        color: $deceased;
+    }
+    &-tested {
+        color: $tested;
+    }
+    &-confirmed {
+        color: $confirmed;
+    }
+    &-recovered {
+        color: $recovered;
+    }
+}

@@ -1,0 +1,134 @@
+.empv {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    .provinces-table {
+    }
+    .provinces {
+        min-width: 5em;
+        white-space: nowrap;
+    }
+    .sparkline-chart {
+
+    }
+    .totals {
+        font-weight: bold;
+    }
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0px;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+        .pr {
+            position: relative;
+        }
+        th.provinces-table-th {
+            text-align: left;
+            font-size: .85em;
+            color: #8899a6;
+            &.prefecture {
+                min-width: 5em;
+                white-space: nowrap;
+            }
+            &.trend {
+                max-width: 10em;
+                min-width: 5em;
+                padding: .625em;
+            }
+            &.count {
+                width: 7em;
+            }
+        }
+        tr {
+            padding: .35em;
+        }
+        td {
+            padding: 5px 0px;
+            &:first-child {
+                padding: 5px;
+            }
+            &.prefecture {
+                min-width: 5em;
+                white-space: nowrap;
+            }
+            .trend {
+                max-width: 10em;
+                min-width: 5em;
+                padding: .625em;
+            }
+            &.count {
+                width: 7em;
+            }
+        }
+        .countd {
+            text-align: center;
+        }
+        span.increment {
+            color: #174ea6;
+            font-size: 10px;
+        }
+        span.incrementa {
+            color: #4285f4;
+            font-size: 10px;
+        }
+        span.incrementr {
+            color: #8ab4f8;
+            font-size: 10px;
+        }
+        span.incrementd {
+            color: #36484f;
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width: 470px) {
+    .empv {
+        table {
+            border: 0;
+            thead {
+                border: none;
+                clip: rect(0 0 0 0);
+                height: 1px;
+                margin: -1px;
+                overflow: hidden;
+                padding: 0;
+                position: absolute;
+                width: 1px;
+            }
+            tr {
+                border-bottom: 3px solid #ddd;
+                display: block;
+                margin-bottom: .625em;
+            }
+            td {
+                border-bottom: 1px solid #ddd;
+                display: block;
+                font-size: .8em;
+                text-align: right !important;
+                &.count {
+                    width: 100% !important;
+                }
+                &.countd {
+                    text-align: right !important;
+                }
+                &::before {
+                    /*
+                    * aria-label has no advantage, it won't be read inside a table
+                    content: attr(aria-label);
+                    */
+                    content: attr(data-label);
+                    float: left;
+                    font-weight: bold;
+                }
+                &:last-child {
+                    border-bottom: 0;
+                }
+            }
+
+        }
+    }
+}

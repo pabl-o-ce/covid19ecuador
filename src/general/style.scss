@@ -1,0 +1,57 @@
+$main: #444;
+$confirmed: #174ea6;
+$recovered: #8ab4f8;
+$deceased: #63686e;
+$active: #4285f4;
+$critical: #1967d2;
+$suspect: #ddd;
+$tested: #aaa;
+
+.general {
+    padding-top: 20px;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    div {
+        width: 30%;
+        margin-bottom: 20px;
+        .diff {
+            width: 100%;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .value {
+            width: 100%;
+            display: block;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 14px;
+        }
+        .label {
+            width: 100%;
+            display: block;
+            color: $main;
+            font-weight: 700;
+        }
+    }
+    &-active {
+        color: $active;
+    }
+    &-critical {
+        color: $critical;
+    }
+    &-deceased {
+        color: $deceased;
+    }
+    &-tested {
+        color: $tested;
+    }
+    &-confirmed {
+        color: $confirmed;
+    }
+    &-recovered {
+        color: $recovered;
+    }
+}

@@ -1,0 +1,14 @@
+header {
+    padding-top: 10px !important;
+    text-align: left;
+    .lang-picker {
+        text-align: right;
+        span {
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    .last-updated {
+        text-transform: capitalize;
+    }
+}

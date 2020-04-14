@@ -1,0 +1,83 @@
+
+{
+    "header": {
+        "title": "Ecuador COVID-19 Coronavirus Tracker",
+        "sayings": {
+            "1": "Always wash your hands! Stay safe!",
+            "2": "Stay healthy, stay at home...",
+            "3": "Play online games with your friends.",
+            "4": "Stay in your home!",
+            "5": "Avoid fake news...",
+            "6": "Eat healthy foods, go to sleep on time.",
+            "7": "We will survive!",
+            "8": "COVID-19 is a serious matter!",
+            "9": "Wash your hands and don't touch your face!",
+            "10": "Social distancing is real...",
+            "11": "Develop in Ecuador",
+            "12": "Stay at home, play games instead...",
+            "13": "Always wear a mask when you go outside.",
+            "14": "Watch news to keep updated!",
+            "15": "Green apple is better than vitamins!",
+            "16": "Health is wealth...",
+            "17": "Happiness is the highest form of health",
+            "18": "Keep calm and carry on...",
+            "19": "Better to be busy than to be busy worrying"
+        },
+        "last_date": "Last Updated:",
+        "db": "View our",
+        "db1": "live database"
+    },
+    "general": {
+        "active": "Active",
+        "critical": "Critical",
+        "deceased": "Deceased",
+        "tested": "Tested",
+        "confirmed": "Confirmed",
+        "recovered": "Recovered",
+        "suspect": "Suspect",
+        "mortality": "Mortality"
+    },
+    "map": {
+        "title": "COVID-19 Outbreak Map by Province",
+        "cases": "cases"
+    },
+    "trend": {
+        "title": "Outbreak Spread Trend",
+        "active": "Active",
+        "confirmed": "Confirmed",
+        "recovered": "Recovered",
+        "deceased": "Deceased",
+        "log": "Logarithmic curve"
+    },
+    "newbyday": {
+        "title": "New Cases By Day"
+    },
+    "trajectories": {
+        "title": "Confirmed Case Trajectories by Prefecture (> 100 Cases)"
+    },
+    "province": {
+        "title": "Province Data",
+        "name": "Province"
+    },
+    "info": {
+        "title": "Hope and Good News",
+        "hgn-1": "First US clinical human trial of potential coronavirus vaccine set to start Monday [March 16, 2020]",
+        "hgn-2": "A second potential COVID-19 vaccine, backed by Bill and Melinda Gates, is entering human testing. [April 6, 2020]",
+        "hgn-3": "German company Bosch produces 95% accurate test with testing time under 2.5 hours and no laboratory required.",
+        "hgn-4": "MIT Emergency Ventilator (E-Vent) Project",
+        "title2": "Help and information",
+        "hi-1": "Information by the Government and the Ministry of Health in Ecuador.",
+        "hi-2": "WHO information about the virus.",
+        "hi-3": "We help companies to connect with their desktop computer from their offices for remote work in Ecuador [VPN]. Write us...",
+        "title3": "Primary Data Sources",
+        "pds-1": "Ecuador National Service for Risk and Emergency Management. (The government does not provide details of people recovered by province)",
+        "pds-2": "Worldometers",
+        "pds-3": "Johns Hopkins University"
+    },
+    "footer": {
+        "p1": "Built and maintained by",
+        "p2": "We Accept Donations",
+        "p3": "Contribute to",
+        "p4": "this project on GitHub"
+    }
+}

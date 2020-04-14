@@ -1,0 +1,82 @@
+{
+    "header": {
+        "title": "Ecuador estado de coronavirus COVID-19",
+        "sayings": {
+            "1": "¡Lávate siempre las manos! Mantente a salvo!",
+            "2": "Mantente saludable, quédate en casa ...",
+            "3": "Juega juegos en línea con tus amigos",
+            "4": "Quédate en tu casa!",
+            "5": "Evita las noticias falsas ...",
+            "6": "Come alimentos saludables, ve a dormir a tiempo",
+            "7": "¡Sobreviviremos!",
+            "8": "¡COVID-19 es un asunto serio!",
+            "9": "¡Lávate las manos y no te toques la cara!",
+            "10": "El distanciamiento social es real ...",
+            "11": "Desarrollado en Ecuador",
+            "12": "Quédate en casa, juega en su lugar ...",
+            "13": "Siempre usa una máscara cuando salgas",
+            "14": "¡Mira las noticias para mantenerte actualizado!",
+            "15": "¡La manzana verde es mejor que las vitaminas!",
+            "16": "Salud es riqueza...",
+            "17": "La felicidad es la forma más elevada de salud",
+            "18": "Mantenga la calma y continúe...",
+            "19": "Es mejor estar ocupado que estar ocupado preocupándose"
+        },
+        "last_date": "Última actualización:",
+        "db": "Mira nuestra",
+        "db1": "base de datos en vivo"
+    },
+    "general": {
+        "active": "Activos",
+        "critical": "Críticos",
+        "deceased": "Fallecidos",
+        "tested": "Pruebas",
+        "confirmed": "Confirmados",
+        "recovered": "Recuperados",
+        "suspect": "Sospechosos",
+        "mortality": "Mortalidad"
+    },
+    "map": {
+        "title": "COVID-19 Mapa de brotes por provincia",
+        "cases": "casos"
+    },
+    "trend": {
+        "title": "Tendencia de propagación de brotes",
+        "confirmed": "Confirmados",
+        "active": "Activos",
+        "recovered": "Recuperados",
+        "deceased": "Fallecidos",
+        "log": "Curva logaritmica"
+    },
+    "newbyday": {
+        "title": "Nuevos casos por día"
+    },
+    "trajectories": {
+        "title": "Trayectorias de casos confirmados por Provincias (> 100 casos)"
+    },
+    "province": {
+        "title": "Datos por provincia",
+        "name": "Provincia"
+    },
+    "info": {
+        "title": "Esperanza y buenas noticias",
+        "hgn-1": "El primer ensayo clínico en humanos en Estados Unidos sobre la posible vacuna contra el coronavirus comenzo a mediados de marzo. [16 de marzo, 2020]",
+        "hgn-2": "Una segunda vacuna potencial COVID-19, respaldada por Bill y Melinda Gates, está entrando en pruebas en humanos. [6 de abril, 2020]",
+        "hgn-3": "La empresa alemana Bosch produce un 95% de pruebas precisas con un tiempo de prueba inferior a 2,5 horas y no requiere laboratorio. [Lee esto Gobierno Ecuatoriano]",
+        "hgn-4": "Proyecto de ventiladores de emergencia del MIT (E-Vent)",
+        "title2": "Ayuda e informacion",
+        "hi-1": "Información por parte del Gobierno y el ministerio de salud del Ecuador.",
+        "hi-2": "Organización Mundial de la Salud (OMS) concejos para el público.",
+        "hi-3": "Ayudamos a empresas a conectarse con su computadora de escritorio de sus oficinas para trabajo remoto en Ecuador [VPN]. Escribenos...",
+        "title3": "Fuentes de datos principales",
+        "pds-1": "Servicio Nacional de Gestión de Riesgos y Emergencias. (El gobierno no brinda detalles de las personas recuperadas por provincia)",
+        "pds-2": "Worldometers",
+        "pds-3": "Universidad Johns Hopkins"
+    },
+    "footer": {
+        "p1": "Desarrollado y mantenido por",
+        "p2": "Aceptamos Donaciones",
+        "p3": "Contribuir a",
+        "p4": "este proyecto en GitHub"
+    }
+}
