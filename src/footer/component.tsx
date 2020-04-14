@@ -13,7 +13,7 @@ function Footer() {
         <a href="https://www.paypal.me/pcarrerae" target="_blank" rel="noopener noreferrer">{t("footer.p2")}</a>.
       </p>
       <p>
-        {t("footer.p3")} <a href="https://github.com/pablocarreraest" target="_blank" rel="noopener noreferrer">{t("footer.p4")}</a>.
+        {t("footer.p3")} <a href="https://github.com/pablocarreraest/covid19ecuador" target="_blank" rel="noopener noreferrer">{t("footer.p4")}</a>.
       </p>
     </section>
   );
