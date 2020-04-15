@@ -12,7 +12,8 @@ function Header(props: IPropsDate) {
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
-  const td = (props.date.length > 0) ? new Date(props.date) : new Date();
+  console.log(props.date);
+  const td = (props.date.length > 0) ? new Date(props.date[0].updated) : new Date();
   const date = format(td, 'MMMM dd Y, k:mm', {locale: es})
   const sayings = t(`header.sayings.${(Math.floor(Math.random()*18))+1}`);
   

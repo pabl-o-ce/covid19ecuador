@@ -8,7 +8,7 @@ import { IPropsData } from '../utils/interfaces';
 
 function GeneralInfo(props: IPropsData) {
     const [t] = useTranslation('common');
-    let current = {...props.data.daily.find(o => o.date === format(new Date(props.data.updated), 'M/d/yy'))} as Daily;
+    let current = {...props.data.daily.find(o => format(new Date(o.date), 'M/d/yy') === format(new Date(props.data.updated[0].updated), 'M/d/yy'))} as Daily;
 
     return (
     <section className="general">

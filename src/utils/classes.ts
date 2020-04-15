@@ -1,14 +1,21 @@
-import { IData, IProvince, IDaily } from "./interfaces";
+import { IData, IProvince, IDaily, IUpdated } from "./interfaces";
 
 export class Data implements IData {
     provinces: IProvince[];
     daily: IDaily[];
-    updated: string;
+    updated: Updated[];
 
     constructor() {
         this.provinces = [];
         this.daily = [];
-        this.updated = '';
+        this.updated = [];
+    }
+}
+
+export class Updated implements IUpdated {
+    updated: string;
+    constructor() {
+        this.updated = "";
     }
 }
 

@@ -10,7 +10,7 @@ import { IPropsData } from '../utils/interfaces';
 function ProvinceMap(props: IPropsData) {
     const [t] = useTranslation('common');
     const provinces = JSON.parse(JSON.stringify(props.data.provinces))
-      .filter((o: Province) => o.date === format(new Date(props.data.updated), 'M/d/yy'))
+      .filter((o: Province) => format(new Date(o.date), 'M/d/yy') === format(new Date(props.data.updated[0].updated), 'M/d/yy'))
       .sort((a: Province, b: Province) => {
         const provinceA = +a.confirmedCumulative;
         const provinceB = +b.confirmedCumulative;

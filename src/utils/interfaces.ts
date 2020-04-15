@@ -1,5 +1,5 @@
 export interface IPropsDate {
-    date: string;
+    date: IUpdated[];
 }
 
 export interface IPropsData {
@@ -9,6 +9,10 @@ export interface IPropsData {
 export interface IData {
     provinces: IProvince[];
     daily: IDaily[];
+    updated: IUpdated[];
+}
+
+export interface IUpdated {
     updated: string;
 }
 

@@ -9,7 +9,7 @@ import { IPropsData } from '../utils/interfaces';
 function GlobalInfo(props: IPropsData) {
     const [t] = useTranslation('common');
     const global = {...props.data.daily} as Daily[];
-    let current = {...props.data.daily.find(o => o.date === format(new Date(props.data.updated), 'M/d/yy'))} as Daily;
+    let current = {...props.data.daily.find(o => o.date === format(new Date(props.data.updated[0].updated), 'M/d/yy'))} as Daily;
 
     return (
     <section className="global">
