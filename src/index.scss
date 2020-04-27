@@ -101,3 +101,9 @@ a, a:hover, a:visited {
       }
   }
 }
+
+.recharts-xAxis {
+  line.recharts-cartesian-axis-line {
+    stroke: transparent !important;
+  }
+}

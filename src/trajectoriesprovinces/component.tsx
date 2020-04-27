@@ -21,6 +21,7 @@ function TrajectoriesProvinces(props: IPropsData) {
       dtmx = Math.max(dtmx, d.confirmedCumulative);
       return i;
     });
+    console.log(provinces.filter((p)=>p.date === format(new Date(), 'MMMM d',{locale: es})).sort((a: Province, b: Province) => (+a.confirmedCumulative > +b.confirmedCumulative) ? -1 : (+a.confirmedCumulative < +b.confirmedCumulative) ? 1 : 0));
     const trjs = provinces.filter((p) => {
       return p.province === 'Guayas' || p.province === 'Pichincha' || p.province === 'Los Ríos' || p.province === 'Azuay' || p.province === 'Manabí' || p.province === 'El Oro' || p.province === 'Cañar' || p.province === 'Santa Elena' || p.province === 'Chimborazo'
     }).map((p)=>{
@@ -28,16 +29,13 @@ function TrajectoriesProvinces(props: IPropsData) {
       e[p.province.replace(/\s/g, "")] = p.confirmedCumulative;
       return e
     });
-    var obj: any = {};
-    for(var i = 0; i < trjs.length; i++){
-      var date = trjs[i].date;
-      // Get previous date saved inside the result
-      var p_date = obj[date] || {}; 
-      // Merge the previous date with the next date
+    let obj: any = {};
+    for(let i = 0; i < trjs.length; i++){
+      const date = trjs[i].date;
+      const p_date = obj[date] || {}; 
       obj[date] = Object.assign(p_date, trjs[i]);
     }
-    // Convert to an array
-    var result: any[] = Object.values(obj);
+    const result: any[] = Object.values(obj);
     return (
     <section className="trajectoriesprovinces">
       <h4>{ t('trajectories.title') }</h4>

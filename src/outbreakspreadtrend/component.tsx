@@ -28,7 +28,7 @@ function SpreadTrend(props: IPropsData) {
       <h4>{ t('trend.title') }</h4>
       <ResponsiveContainer width="100%" height={300}>
         <LineChart syncId="anyId" width={750} height={300} data={timeline} margin={{top: 5, right: 20, left: 20, bottom: 5}}>
-          <CartesianGrid stroke="#eee" strokeDasharray="3 3" />
+          {/* <CartesianGrid stroke="#eee" strokeDasharray="3 3" /> */}
           <XAxis type="category" dataKey="date" stroke="#8899a6"/>
           <YAxis hide={true} type="number" stroke="#8899a6" domain={[0, dtmx + 300]}/>
           <Tooltip content={<CustomTooltip />} />
