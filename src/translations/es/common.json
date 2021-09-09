@@ -52,7 +52,7 @@
         "title": "Nuevos casos por día"
     },
     "trajectories": {
-        "title": "Trayectorias de casos confirmados por Provincias (> 100 casos)"
+        "title": "Trayectorias de casos confirmados por Provincias (Primeros 6 casos)"
     },
     "province": {
         "title": "Datos por provincia",
@@ -69,7 +69,7 @@
         "hi-2": "Organización Mundial de la Salud (OMS) concejos para el público.",
         "hi-3": "Ayudamos a empresas a conectarse con su computadora de escritorio de sus oficinas para trabajo remoto en Ecuador [VPN]. Escribenos...",
         "title3": "Fuentes de datos principales",
-        "pds-1": "Servicio Nacional de Gestión de Riesgos y Emergencias. (El gobierno no brinda detalles de las personas recuperadas por provincia)",
+        "pds-1": "Servicio Nacional de Gestión de Riesgos y Emergencias.",
         "pds-2": "Worldometers",
         "pds-3": "Universidad Johns Hopkins"
     },

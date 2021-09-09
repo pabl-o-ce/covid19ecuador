@@ -53,7 +53,7 @@
         "title": "New Cases By Day"
     },
     "trajectories": {
-        "title": "Confirmed Case Trajectories by Prefecture (> 100 Cases)"
+        "title": "Confirmed Case Trajectories by Prefecture (top 6 Cases)"
     },
     "province": {
         "title": "Province Data",

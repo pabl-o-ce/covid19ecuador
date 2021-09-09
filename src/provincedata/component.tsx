@@ -40,10 +40,10 @@ function ProvinceData(props: IPropsData) {
             </BarChart>
           </ResponsiveContainer>
         </td>
-  <td className="count countd" data-label={t('general.confirmed')}>{p.confirmedCumulative} {shouldHide(p.confirmed) && <span className="increment">(+{p.confirmed})</span>}</td>
-  <td className="count countd" data-label={t('general.active')}>{p.activeCumulative} {shouldHide(p.active) && <span className="incrementa">(+{p.active})</span>}</td>
-  <td className="count countd" data-label={t('general.recovered')}>{p.recoveredCumulative} {shouldHide(p.recovered) && <span className="incrementr">(+{p.recovered})</span>}</td>
-  <td className="count countd" data-label={t('general.deceased')}>{p.deceasedCumulative} {shouldHide(p.deceased) && <span className="incrementd">(+{p.deceased})</span>}</td>
+        <td className="count countd" data-label={t('general.confirmed')}>{p.confirmedCumulative} {shouldHide(p.confirmed) && <span className="increment">(+{p.confirmed})</span>}</td>
+        <td className="count countd" data-label={t('general.active')}>{p.activeCumulative} {shouldHide(p.active) && <span className="incrementa">(+{p.active})</span>}</td>
+        <td className="count countd" data-label={t('general.recovered')}>{p.recoveredCumulative} {shouldHide(p.recovered) && <span className="incrementr">(+{p.recovered})</span>}</td>
+        <td className="count countd" data-label={t('general.deceased')}>{p.deceasedCumulative} {shouldHide(p.deceased) && <span className="incrementd">(+{p.deceased})</span>}</td>
       </tr>
     );
 

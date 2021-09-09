@@ -11,19 +11,16 @@ import { ProvinceData } from './provincedata';
 import { Info } from './info';
 import { useFetch } from './utils/hooks';
 import { TrajectoriesProvinces } from './trajectoriesprovinces';
-import { GlobalInfo } from './globalinfo';
 import { ProvinceMap } from './provincemap';
-import { Mapbox } from './mapbox';
 
 function App() {
 
   const [data, loading] = useFetch('assets/data/latest.json');
-  
+
   return (
     <Suspense fallback={<Loader />}>
       <div className="App">
         <Header date={data.updated}/>
-        <Mapbox />
         <GeneralInfo data={data} />
         <ProvinceMap data={data} />
         <SpreadTrend data={data} />
